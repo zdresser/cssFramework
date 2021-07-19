@@ -1,3 +1,32 @@
+nav {
+  background-color: rgb(145, 138, 138);
+  overflow: hidden;
+  padding: 20px;
+}
+
+.nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.nav-li {
+  float: left;
+}
+
+.nav-a {
+  display: block;
+  padding: 8px;
+}
+
+.nav-a:hover {
+  background-color: red;
+}
+
 .col-1 {
   float: left;
   width: 8.33333333%;
